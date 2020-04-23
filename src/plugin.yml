@@ -1,0 +1,11 @@
+name: Minicommands
+main: com.strangeone101.minicommands.MiniCommandsPlugin
+version: 1.0
+commands:
+   minicommands:
+      description: Manage minicommands
+      usage: /<command>
+      aliases: [minicommand]
+permissions:
+  minicommands.command:
+    default: op
